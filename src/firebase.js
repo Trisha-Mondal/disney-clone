@@ -3,6 +3,7 @@ import "firebase/compat/auth"
 import "firebase/compat/firestore"
 import 'firebase/compat/storage'
 
+
 // function MyComponent() {
 //     const signInWithGoogle = () => {
 //         const provider = new firebase.auth.GoogleAuthProvider();
