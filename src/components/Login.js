@@ -1,18 +1,18 @@
-//  import styled from "styled-components";
-// const Login = (props) => {
-//     return(
-//     <Container>
-//         <Content>Content</Content>
-//     </Container>
-//     );
-//     const Container = styled.section`
-//     overflow:hidden;
-//     display:flex;
-// `;
-//     const Content = styled.div``;
+ import styled from "styled-components";
+const Login = (props) => {
+    return(
+    <Container>
+        <Content>Content</Content>
+    </Container>
+    );
+    const Container = styled.section`
+    overflow:hidden;
+    display:flex;
+`;
+    const Content = styled.div``;
     
-// };
-// export default Login;
+};
+export default Login;
 import styled from "styled-components";
 
 import React from 'react'

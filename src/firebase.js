@@ -4,16 +4,16 @@ import "firebase/compat/firestore"
 import 'firebase/compat/storage'
 
 
-// function MyComponent() {
-//     const signInWithGoogle = () => {
-//         const provider = new firebase.auth.GoogleAuthProvider();
-//         firebase.auth().signInWithPopup(provider);
-//     };
+function MyComponent() {
+    const signInWithGoogle = () => {
+        const provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().signInWithPopup(provider);
+    };
 
-//     return ( <
-//         button onClick = { signInWithGoogle } > Sign in with Google < /button>
-//     );
-// }
+    return ( <
+        button onClick = { signInWithGoogle } > Sign in with Google < /button>
+    );
+}
 const firebaseConfig = {
     apiKey: "AIzaSyADVLMYnbasXAGQ9VU7AbQhx-vHOBB_ITE",
     authDomain: "disney-clone-7c01f.firebaseapp.com",
