@@ -1,11 +1,11 @@
 import React from 'react'
-//import firebase from 'firebase/app';
-//import { initializeApp } from 'firebase/app';
+import firebase from 'firebase/app';
+import { initializeApp } from 'firebase/app';
 
-// import 'firebase/auth';
-// import 'firebase/database';
-// import 'firebase/firestore';
-// import 'firebase/storage';
+import 'firebase/auth';
+import 'firebase/database';
+import 'firebase/firestore';
+import 'firebase/storage';
 
 
 
